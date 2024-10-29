@@ -1,0 +1,371 @@
+/* allows the page to be shorter */
+@media screen and (max-width: 1320px) {
+    header {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    header {
+        padding: 0 30px;
+    }
+}
+
+/* Values */
+
+@media (max-width: 1290px) and (min-width: 1070px){
+
+    .insurance-content-container {
+        grid-template-columns: repeat(3, 1fr); 
+        justify-content: center; 
+        width: 0;
+    }
+
+}
+
+
+@media (min-width: 1290px){
+
+    .insurance-content-container {
+        grid-template-columns: repeat(4, 1fr); 
+        justify-content: center; 
+    }
+
+}
+
+@media (max-width: 1070px) and (min-width: 980px){
+
+    .insurance-content-container {
+        grid-template-columns: repeat(3, 1fr); 
+        justify-content: center; 
+    }
+
+}
+
+@media (max-width: 980px) and (min-width: 660px){
+
+    .insurance-content-container {
+        grid-template-columns: repeat(2, 1fr); 
+        justify-content: center; 
+    }
+
+}
+
+@media (max-width: 660px) and (min-width: 570px){
+
+    .insurance-content-container {
+        grid-template-columns: repeat(3, 1fr); 
+        justify-content: center; 
+    }
+
+    .insurances-services-button{
+        width: 300px;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 570px) and (min-width: 345px){
+
+    .insurance-content-container {
+        grid-template-columns: repeat(2, 1fr); 
+        justify-content: center; 
+    }
+
+    .main-content h1{
+        font-size: 25px;
+    }
+
+    .main-content p{
+        font-size: 18px;
+    }
+
+    .insurances-services-button{
+        width: 290px;
+        padding: 18px;
+        font-size: 16px;
+    }
+
+
+}
+
+@media (max-width:440px){
+    .footer-legal-information h3{
+        font-size: 10px;
+    }
+
+    .insurances-services-button{
+        width: 290px;
+        padding: 18px;
+        font-size: 16px;
+    }
+
+    .main-content h1{
+        font-size: 22px;
+        max-width: 300px;
+    }
+
+    .main-content p{
+        font-size: 15px;
+        max-width: 300px;
+    }
+
+    .social-media{
+        width: 90%;
+    }
+
+}
+
+@media (max-width:345px){
+
+    .insurance-content-container {
+        grid-template-columns: repeat(1, 1fr); 
+        justify-content: center; 
+    }
+
+    .insurances-services-button{
+        width: 280px;
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+}
+
+/* mobile cards */
+
+@media (max-width: 660px){
+    .insurance-type h2{
+        font-size: 14px;
+    }
+
+    .insurance-type p{
+        display: none;
+    }
+
+    .insurance-type{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .insurance-type h2{
+        font-size: 11px;
+    }
+
+    .insurance-type i{
+        font-size: 12px;
+    }
+
+    .insurance-type{
+        height: 130px;
+        max-width: 160px;
+    }
+}
+
+
+
+@media screen and (max-width: 1060px) {
+
+    #about{
+        max-width: 80%;
+        margin: auto;
+        text-align: left;
+    }
+
+    .insurance-content-container {
+        width: 0;
+    }
+
+    .nav-logo{
+        height: 90px;
+    }
+
+    .mobile-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-button{
+        display: none;
+    }
+
+    .text-container{
+        text-align: center;
+    }
+
+    .valores-section{
+        text-align: center;
+    }
+
+    .main-content {
+        text-align: center;
+    }
+
+
+    .main-content h1 span::before{
+        content: '\a';
+        white-space: pre;
+    }
+
+    .mobile-menu .line {
+        width: 25px;
+        height: 2px;
+        background-color: var(--text-color);
+        margin: 6px;
+    }
+
+    nav {
+        z-index: 2;
+        position:absolute;
+        height: 0;
+        top: 100px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: white;
+        transition: 0.4s;
+        overflow: hidden;
+    }
+
+    nav.active {
+        z-index: 2;
+        height: 350px;
+        background-color: white;
+    }
+
+    nav.active ul {
+        opacity: 1;
+    }
+
+    nav ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+    }
+
+    nav ul li a {
+        margin-bottom: 12px;
+    }
+
+    /* ABOUT US*/
+
+    #move-about{
+        max-width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .content-inside-about{
+        margin: 0;
+    }
+
+    .title-about p{
+        font-size: 18px;
+    }
+
+    .content-about{
+        flex-direction:column;
+    }
+
+    .about-img{
+        height: 100px;
+        margin-bottom: 30px;
+    }
+
+    .content-about h1{
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+
+    .content-about p{
+        font-size: 16px;
+    }
+
+    #mobile-change{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /* Social Media*/
+
+    .social-media{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .social-media-icon, .social-media div{
+        margin-right: 0;
+    }
+
+    .social-media-icon i{
+        margin: 5px;
+        font-size: 17px;
+    }
+
+    .social-media span{
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    /* Servicos */
+
+    #services{
+        align-items: center;
+        margin: auto;
+    }
+
+    .insurance-container h3{
+        font-size: 16px;
+    }
+
+    .insurance-container h1{
+        font-size: 20px;
+    }
+
+
+    /* footer */
+
+    .footer-left-content{
+        padding-left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-content-container {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    #view-more{
+        width: auto;
+    }
+
+    hr{
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+}
+
+    
