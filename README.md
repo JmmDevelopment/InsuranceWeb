@@ -20,7 +20,7 @@ A Mazzola Corretora de Seguros buscava uma solução para aumentar sua visibilid
 - Design responsivo, adaptando-se a diferentes tamanhos de tela.
 
 
-### Personalize conforme necessário:
+### Informações do projeto:
 - **URL do Repositório**:  `https://github.com/JmmDevelopment/InsuranceWeb.git` 
 - **Email de Contato**: jmuniz.mazzola@gmail.com.
 
