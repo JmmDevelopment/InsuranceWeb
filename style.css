@@ -119,7 +119,7 @@ nav ul {
 }
 
 main {
-    background-image: url(./assets/img-test-1.jpg);
+    background-image: url(./assets/main-background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -492,7 +492,7 @@ hr{
 }
 
 
-.footer-main-content a:hover, .footer-legal-information a h3:hover{
+.footer-main-content a:hover{
     color: white;
     transition: 0.2s ease-in-out;
 }
