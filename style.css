@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-
 @font-face {
     font-family: 'madetommy';
     src: url('../fonts/madetommy.otf') format('truetype');
@@ -24,6 +23,7 @@
     --footer-bg-color: #04203A;
     --light-text-color: #7A7A7A;
     --golden: #B09055;
+    --light-golden: #e5b04e
 }
 
 body {
@@ -59,7 +59,6 @@ header {
     scale: 1.1;
 }
 
-
 nav {
     display: flex;
     align-items: baseline;
@@ -82,7 +81,7 @@ nav ul {
 .nav-link::after{
     content: "";
     display: block;
-    background-color: var(--golden);
+    background-color: var(--light-golden);
     height: 3px;
     width: 0;
     left: 0;
@@ -100,7 +99,7 @@ nav ul {
 
 .nav-button{
     color: white;
-    background-color: var(--golden);
+    background-color: var(--light-golden);
     border-radius: 5px;
     font-weight: 500;
     display: block;
@@ -134,7 +133,7 @@ main {
 
 .main-content {
     display: flex;
-    color: #fefefe;
+    color: white;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -147,7 +146,7 @@ main {
 }
 
 .main-content h1 span {
-    color: #e5b04e;    
+    color: var(--light-golden); 
 }
 
 .main-content p{
@@ -197,17 +196,17 @@ main {
 }
 
 .option:hover, .option.selected {
-    color: var(--golden);
+    color: var(--light-golden);
 }
 
-/* Estilizando a barra de rolagem */
+/* Estilizando a barra de rolagem | Obs.: Nao se aplica para Firefox e Safari em IOS */
 .options-list::-webkit-scrollbar {
     width: 4px;
     background-color: white;
 }
 
 .options-list::-webkit-scrollbar-thumb {
-    background-color: var(--golden);
+    background-color: var(--light-golden);
 }
 
 /* Quando a lista está ativa */
@@ -235,8 +234,8 @@ main {
 }
 
 .button-submit:hover {
-    background-color: var(--golden);
-    border: 2px var(--golden) solid;
+    background-color: var(--light-golden);
+    border: 2px var(--light-golden) solid;
     width: 15rem;
     color: white;
     font-weight: 600;
@@ -258,7 +257,7 @@ main {
 }
 
 .insurance-container h3{
-    color: var(--golden);
+    color: var(--light-golden);
     text-transform: uppercase;
     font-family: "madetommy";
 }
@@ -310,7 +309,7 @@ main {
     width: 50px;
     text-align: center;
     font-size: 18px;
-    background-color: var(--golden);
+    background-color: var(--light-golden);
     border-radius: 5px;
     padding: 10px;
 }
@@ -354,8 +353,9 @@ main {
     font-weight: 600;
 }
 
+
 .hidden {
-    display: none;
+    display: none; /* Seguros com a classe .hidden não aparecem inicialmente */
 }
 
 /* About */
@@ -409,7 +409,7 @@ main {
     width: 95%;
     margin: auto;
     padding: 20px;
-    background-color: var(--golden);
+    background-color: var(--light-golden);
     color: white;
     margin-top: 80px;
     border-radius: 10px;
@@ -529,7 +529,6 @@ ul li i{
     align-items: center;
     height: 80px;
     gap: 10px;
-    color: red;
 }
 
 
